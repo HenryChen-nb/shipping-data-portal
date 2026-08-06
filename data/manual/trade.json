@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-08-01",
+  "note": "人工维护：中国进出口贸易月度数据，每月上中旬更新上月数据。来源：海关总署统计快讯（官网直连被反爬，人工录入），权威链接见 source_url。",
+  "source_url": "http://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+  "currency": "人民币亿元",
+  "monthly": [
+    {"month": "2026-05", "export": null, "import": null, "total": null, "note": "待更新"},
+    {"month": "2026-04", "export": null, "import": null, "total": null, "note": "待更新"},
+    {"month": "2026-03", "export": null, "import": null, "total": null, "note": "待更新"},
+    {"month": "2026-02", "export": null, "import": null, "total": null, "note": "待更新"},
+    {"month": "2026-01", "export": null, "import": null, "total": null, "note": "待更新"}
+  ],
+  "partners": [
+    {"country": "东盟", "share_pct": null, "note": "待更新"},
+    {"country": "欧盟", "share_pct": null, "note": "待更新"},
+    {"country": "美国", "share_pct": null, "note": "待更新"},
+    {"country": "韩国", "share_pct": null, "note": "待更新"},
+    {"country": "日本", "share_pct": null, "note": "待更新"},
+    {"country": "俄罗斯", "share_pct": null, "note": "待更新"}
+  ]
+}
