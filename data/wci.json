@@ -1,0 +1,35 @@
+{
+  "assessed_on": "30 Jul 2026",
+  "assessed_text": "Thursday, 30 Jul 2026",
+  "wci_composite": 4255,
+  "wci_change_pct": -3,
+  "routes": [
+    {
+      "route": "Shanghai-Los Angeles",
+      "route_cn": "上海-洛杉矶",
+      "rate_usd": 5739,
+      "change_pct": -2
+    },
+    {
+      "route": "Shanghai-New York",
+      "route_cn": "上海-纽约",
+      "rate_usd": 7578,
+      "change_pct": 0
+    },
+    {
+      "route": "Shanghai-Genoa",
+      "route_cn": "上海-热那亚",
+      "rate_usd": 5630,
+      "change_pct": -6
+    },
+    {
+      "route": "Shanghai-Rotterdam",
+      "route_cn": "上海-鹿特丹",
+      "rate_usd": 4677,
+      "change_pct": -3
+    }
+  ],
+  "updated_at": "2026-08-06",
+  "source": "Drewry World Container Index (WCI)",
+  "source_url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+}
