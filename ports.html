@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>港口地图 · 全球航运数据门户</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">全球航运数据门户
+      <span class="sub">港口 · 航线 · 中国进出口贸易</span>
+    </a>
+    <a class="page" href="index.html">首页</a>
+    <a class="page" href="ports.html">港口地图</a>
+    <a class="page" href="routes.html">航线运价</a>
+    <a class="page" href="trade.html">贸易数据</a>
+    <a class="page" href="sources.html">数据源</a>
+  </header>
+
+  <main>
+    <h1 class="page-title">全球港口地图</h1>
+    <p class="page-desc">主要港口（47 个）按吞吐量分级展示；下方搜索可检索全部 1.7 万+ 港口（UN/LOCODE 数据）。</p>
+    <div id="data-time" class="data-time"></div>
+
+    <div class="search-row">
+      <input type="text" id="port-search" placeholder="搜索港口：中文名 / 英文名 / 港口代码（如 Shanghai、CNSGH、上海）">
+      <button id="btn-search">搜索</button>
+    </div>
+
+    <div class="grid cols-2" style="grid-template-columns: 1fr 340px;">
+      <div>
+        <div id="map-full"></div>
+        <p class="meta" style="margin-top:6px;">图例：<span style="color:#1d4a7a;">●</span> 吞吐量 &lt; 600万TEU · <span style="color:#c9a227;">●</span> 600~1500万TEU · <span style="color:#c53030;">●</span> &gt; 1500万TEU</p>
+      </div>
+      <div>
+        <div class="card" id="port-detail" style="min-height:200px;">
+          <h3>港口详情</h3>
+          <p class="empty">在地图上点击港口，或搜索后选择结果查看详情</p>
+        </div>
+        <div class="card" style="margin-top:14px;">
+          <h3>搜索结果 <span id="search-count" class="meta"></span></h3>
+          <div id="search-results" style="max-height:380px;overflow-y:auto;"></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin:26px 0 10px;">主要港口排名（2024 年集装箱吞吐量约数）</h3>
+    <div class="card" style="overflow-x:auto;">
+      <table class="data" id="top-table">
+        <thead><tr><th>排名</th><th>港口</th><th>代码</th><th>国家/地区</th><th>2024吞吐量(万TEU)</th><th>备注</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/ports.js"></script>
+</body>
+</html>
