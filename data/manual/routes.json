@@ -1,0 +1,116 @@
+{
+  "updated_at": "2026-08-01",
+  "note": "全球主要集装箱主干航线（人工维护，低频更新）。途径港口为主要挂靠港示例。",
+  "routes": [
+    {
+      "name_cn": "远东—欧洲（西北欧）",
+      "name_en": "Far East - North Europe",
+      "via": "马六甲海峡—苏伊士运河（绕好望角为绕行航线）",
+      "key_ports_cn": ["上海", "宁波", "深圳", "新加坡", "鹿特丹", "汉堡", "安特卫普"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Singapore", "Rotterdam", "Hamburg", "Antwerp"],
+      "transit_days": "约 28-35 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞", "赫伯罗特", "ONE"],
+      "rate_ref": "SCFI 欧线 / Drewry WCI 上海-鹿特丹",
+      "note": "全球货量最大的主干航线之一；红海局势下部分船期绕行好望角"
+    },
+    {
+      "name_cn": "远东—地中海",
+      "name_en": "Far East - Mediterranean",
+      "via": "马六甲海峡—苏伊士运河",
+      "key_ports_cn": ["上海", "宁波", "深圳", "新加坡", "比雷埃夫斯", "瓦伦西亚", "热那亚"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Singapore", "Piraeus", "Valencia", "Genoa"],
+      "transit_days": "约 22-30 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞"],
+      "rate_ref": "Drewry WCI 上海-热那亚",
+      "note": "比雷埃夫斯港为中远海运控股枢纽港"
+    },
+    {
+      "name_cn": "远东—北美西岸（美西）",
+      "name_en": "Far East - North America West Coast",
+      "via": "跨太平洋（北太平洋航线）",
+      "key_ports_cn": ["上海", "宁波", "深圳", "青岛", "釜山", "洛杉矶", "长滩", "温哥华"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Qingdao", "Busan", "Los Angeles", "Long Beach", "Vancouver"],
+      "transit_days": "约 12-18 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞", "ONE", "长荣"],
+      "rate_ref": "Drewry WCI 上海-洛杉矶",
+      "note": "跨太平洋最繁忙航线；洛杉矶/长滩为美西门户"
+    },
+    {
+      "name_cn": "远东—北美东岸（美东）",
+      "name_en": "Far East - North America East Coast",
+      "via": "跨太平洋—巴拿马运河（或苏伊士运河）",
+      "key_ports_cn": ["上海", "宁波", "深圳", "新加坡", "纽约", "萨凡纳", "查尔斯顿"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Singapore", "New York", "Savannah", "Charleston"],
+      "transit_days": "约 25-35 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞", "ONE"],
+      "rate_ref": "Drewry WCI 上海-纽约",
+      "note": "美东门户纽约/新泽西为最大港"
+    },
+    {
+      "name_cn": "跨大西洋（欧洲—北美东岸）",
+      "name_en": "Transatlantic (Europe - North America East Coast)",
+      "via": "北大西洋航线",
+      "key_ports_cn": ["鹿特丹", "安特卫普", "汉堡", "纽约", "诺福克"],
+      "key_ports": ["Rotterdam", "Antwerp", "Hamburg", "New York", "Norfolk"],
+      "transit_days": "约 8-12 天",
+      "carriers": ["马士基", "地中海航运", "达飞", "赫伯罗特"],
+      "rate_ref": "FBX / 船公司运价",
+      "note": "欧美间贸易主干线"
+    },
+    {
+      "name_cn": "远东—印度次大陆/中东",
+      "name_en": "Far East - Indian Subcontinent / Middle East",
+      "via": "马六甲海峡—孟加拉湾—阿拉伯海",
+      "key_ports_cn": ["上海", "宁波", "新加坡", "科伦坡", "那瓦舍瓦", "杰贝阿里"],
+      "key_ports": ["Shanghai", "Ningbo", "Singapore", "Colombo", "Nhava Sheva", "Jebel Ali"],
+      "transit_days": "约 15-25 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞"],
+      "rate_ref": "SCFI 波斯湾线",
+      "note": "杰贝阿里为中东最大枢纽港"
+    },
+    {
+      "name_cn": "远东—东南亚（区域内）",
+      "name_en": "Intra-Asia (Far East - Southeast Asia)",
+      "via": "南海—马六甲海峡",
+      "key_ports_cn": ["上海", "宁波", "深圳", "厦门", "新加坡", "巴生", "林查班", "胡志明", "马尼拉"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Xiamen", "Singapore", "Port Klang", "Laem Chabang", "Ho Chi Minh City", "Manila"],
+      "transit_days": "约 3-10 天",
+      "carriers": ["中远海运", "太平船务", "万海", "马士基", "地中海航运"],
+      "rate_ref": "SCFI 东南亚线",
+      "note": "区域产业转移带动的高频近洋航线"
+    },
+    {
+      "name_cn": "远东—南美东岸",
+      "name_en": "Far East - South America East Coast",
+      "via": "马六甲—印度洋—好望角—大西洋",
+      "key_ports_cn": ["上海", "宁波", "新加坡", "桑托斯", "里约热内卢", "布宜诺斯艾利斯"],
+      "key_ports": ["Shanghai", "Ningbo", "Singapore", "Santos", "Rio de Janeiro", "Buenos Aires"],
+      "transit_days": "约 35-45 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞"],
+      "rate_ref": "SCFI 南美线",
+      "note": "农产品/铁矿石进口与工业品出口双向货流"
+    },
+    {
+      "name_cn": "远东—南美西岸",
+      "name_en": "Far East - South America West Coast",
+      "via": "跨太平洋—南美西岸",
+      "key_ports_cn": ["上海", "宁波", "深圳", "釜山", "巴尔博亚", "卡亚俄", "瓦尔帕莱索"],
+      "key_ports": ["Shanghai", "Ningbo", "Shenzhen", "Busan", "Balboa", "Callao", "Valparaiso"],
+      "transit_days": "约 20-30 天",
+      "carriers": ["中远海运", "达飞", "地中海航运"],
+      "rate_ref": "SCFI 南美线",
+      "note": "智利铜矿/车厘子等特色货流"
+    },
+    {
+      "name_cn": "远东—非洲（东非/西非）",
+      "name_en": "Far East - Africa (East/West)",
+      "via": "马六甲—印度洋（东非）；好望角—大西洋（西非）",
+      "key_ports_cn": ["上海", "宁波", "新加坡", "德班", "蒙巴萨", "拉各斯"],
+      "key_ports": ["Shanghai", "Ningbo", "Singapore", "Durban", "Mombasa", "Lagos"],
+      "transit_days": "约 25-40 天",
+      "carriers": ["中远海运", "马士基", "地中海航运", "达飞"],
+      "rate_ref": "SCFI 非洲线",
+      "note": "中非贸易持续增长"
+    }
+  ]
+}
