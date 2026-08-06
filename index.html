@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全球航运数据门户 · 首页</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">全球航运数据门户
+      <span class="sub">港口 · 航线 · 中国进出口贸易</span>
+    </a>
+    <a class="page" href="index.html">首页</a>
+    <a class="page" href="ports.html">港口地图</a>
+    <a class="page" href="routes.html">航线运价</a>
+    <a class="page" href="trade.html">贸易数据</a>
+    <a class="page" href="sources.html">数据源</a>
+  </header>
+
+  <main>
+    <h1 class="page-title">全球港口 · 航线 · 贸易数据总览</h1>
+    <p class="page-desc">聚合全球港口基础数据、主干航线运价与中国进出口贸易信息的轻量数据门户。自动抓取 + 人工维护，所有数据附权威来源链接。</p>
+    <div id="data-time" class="data-time"></div>
+
+    <!-- 关键指标 -->
+    <h3 style="margin-bottom:10px;">关键指标</h3>
+    <div class="grid cols-4" id="kpi"></div>
+
+    <!-- WCI 最新一期 -->
+    <h3 style="margin:24px 0 10px;">Drewry 全球集装箱运价指数（WCI）· 最新一期</h3>
+    <div class="card" id="wci-card"></div>
+
+    <!-- 板块入口 -->
+    <h3 style="margin:24px 0 10px;">数据板块</h3>
+    <div class="grid cols-4">
+      <div class="card">
+        <h3>🌐 港口地图</h3>
+        <p style="font-size:13px;color:var(--muted);">全球 1.7 万+ 港口基础数据（UN/LOCODE），47 个主要港口含吞吐量与中文名，地图可视化 + 搜索。</p>
+        <p style="margin-top:10px;"><a class="ext" href="ports.html">进入港口地图 →</a></p>
+      </div>
+      <div class="card">
+        <h3>🚢 航线运价</h3>
+        <p style="font-size:13px;color:var(--muted);">10 条全球主干航线清单（途径港/船公司/航程），WCI 周度运价与 SCFI/CCFI/NCFI 指数。</p>
+        <p style="margin-top:10px;"><a class="ext" href="routes.html">进入航线运价 →</a></p>
+      </div>
+      <div class="card">
+        <h3>📦 贸易数据</h3>
+        <p style="font-size:13px;color:var(--muted);">中国进出口月度数据（海关总署）、主要贸易伙伴占比，配套权威链接。</p>
+        <p style="margin-top:10px;"><a class="ext" href="trade.html">进入贸易数据 →</a></p>
+      </div>
+      <div class="card">
+        <h3>🔗 数据源导航</h3>
+        <p style="font-size:13px;color:var(--muted);">港口/AIS、船公司、航运指数、行业报告、贸易统计等 30+ 权威来源分类链接。</p>
+        <p style="margin-top:10px;"><a class="ext" href="sources.html">进入数据源导航 →</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
