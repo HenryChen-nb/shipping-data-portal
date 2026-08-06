@@ -1,0 +1,69 @@
+{
+  "sse": {
+    "url": "https://www.sse.net.cn/",
+    "title": "Home | Shanghai Shipping Exchange Institute(Prep.)",
+    "total_links": 43,
+    "keyword_links": [
+      {
+        "text": "数据中心",
+        "href": "https://www.sse.net.cn/datacenter"
+      },
+      {
+        "text": "公告",
+        "href": "https://www.sse.net.cn/announcement/business"
+      },
+      {
+        "text": "航运指数",
+        "href": "https://www.sse.net.cn/indexIntro?indexName=intro"
+      },
+      {
+        "text": "运价备案",
+        "href": "https://www.sse.net.cn/servicesintro/pricefillingintro"
+      },
+      {
+        "text": "航运指数",
+        "href": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi"
+      },
+      {
+        "text": "运价备案",
+        "href": "https://www.sse.net.cn/servicesintro/fillingnav"
+      },
+      {
+        "text": "航运市场信息部",
+        "href": "https://www.sse.net.cn/departmentintro/scxxb"
+      },
+      {
+        "text": "关于启用上海航运交易研究所（筹）相关印章的公告",
+        "href": "https://www.sse.net.cn/announcement/zhuti"
+      },
+      {
+        "text": "关于上海航运指数编发主体的公告",
+        "href": "https://www.sse.net.cn/announcement/business"
+      },
+      {
+        "text": "关于上海航运交易所会员服务的公告",
+        "href": "https://www.sse.net.cn/announcement/member"
+      },
+      {
+        "text": "关于上海航运交易研究所（筹）银行账户、开票信息的公告",
+        "href": "https://www.sse.net.cn/announcement/bank"
+      },
+      {
+        "text": "交通运输部关于印发《交通运输数据安全管...",
+        "href": "https://www.sse.net.cn/cninfo/./notice/policy/202607/t20260715_1477279.jsp"
+      }
+    ]
+  },
+  "nbse": {
+    "url": "https://www.nbse.net.cn/",
+    "title": "Äþ²¨º½ÔË½»Ò×Ëù¹Ù·½ÍøÕ¾",
+    "total_links": 0,
+    "keyword_links": []
+  },
+  "mot": {
+    "url": "https://www.mot.gov.cn/",
+    "title": "ä¸­åäººæ°å±åå½äº¤éè¿è¾é¨",
+    "total_links": 147,
+    "keyword_links": []
+  }
+}
