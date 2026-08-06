@@ -1,0 +1,192 @@
+[
+  {
+    "name": "unece-locode",
+    "category": "港口-基础",
+    "variant": "http-首页",
+    "url": "http://service.unece.org/trade/locode/welcome.htm",
+    "ok": false,
+    "status": 403,
+    "title": "Just a moment...",
+    "final": "https://service.unece.org/trade/locode/welcome.htm"
+  },
+  {
+    "name": "unece-locode",
+    "category": "港口-基础",
+    "variant": "https-目录",
+    "url": "https://service.unece.org/trade/locode/",
+    "ok": false,
+    "status": 403,
+    "title": "Just a moment...",
+    "final": "https://service.unece.org/trade/locode/"
+  },
+  {
+    "name": "unece-locode",
+    "category": "港口-基础",
+    "variant": "http-目录",
+    "url": "http://service.unece.org/trade/locode/",
+    "ok": false,
+    "status": 403,
+    "title": "Just a moment...",
+    "final": "https://service.unece.org/trade/locode/"
+  },
+  {
+    "name": "customs-stat",
+    "category": "中国贸易",
+    "variant": "https-栏目",
+    "url": "https://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+    "ok": false,
+    "status": null,
+    "title": null,
+    "error": "SSLError: HTTPSConnectionPool(host='www.customs.gov.cn', port=443): Max retries exceeded with url: /customs/302249/zfxxgk/2799825/302274/302277/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))"
+  },
+  {
+    "name": "customs-stat",
+    "category": "中国贸易",
+    "variant": "mobile-栏目",
+    "url": "https://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html",
+    "ok": false,
+    "status": null,
+    "title": null,
+    "error": "SSLError: HTTPSConnectionPool(host='www.customs.gov.cn', port=443): Max retries exceeded with url: /customs/302249/zfxxgk/2799825/302274/302277/index.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))"
+  },
+  {
+    "name": "customs-stat",
+    "category": "中国贸易",
+    "variant": "http-首页",
+    "url": "http://www.customs.gov.cn/",
+    "ok": false,
+    "status": 412,
+    "title": null,
+    "final": "http://www.customs.gov.cn/"
+  },
+  {
+    "name": "portscom",
+    "category": "港口-基础",
+    "variant": "https-重试",
+    "url": "https://ports.com/",
+    "ok": false,
+    "status": null,
+    "title": null,
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='ports.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x104a868a0>, 'Connection to ports.com timed out. (connect timeout=25)'))"
+  },
+  {
+    "name": "portscom",
+    "category": "港口-基础",
+    "variant": "www-重试",
+    "url": "https://www.ports.com/",
+    "ok": false,
+    "status": null,
+    "title": null,
+    "error": "ConnectionError: HTTPSConnectionPool(host='www.ports.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x104a86270>: Failed to establish a new connection: [Errno 51] Network is unreachable'))"
+  },
+  {
+    "name": "sse-single-index",
+    "category": "运价指数",
+    "variant": "SCFI页",
+    "url": "https://www.sse.net.cn/index/singleIndex?indexName=SCFI",
+    "ok": false,
+    "status": 500,
+    "title": "系统错误",
+    "final": "https://www.sse.net.cn/index/singleIndex?indexName=SCFI"
+  },
+  {
+    "name": "sse-single-index",
+    "category": "运价指数",
+    "variant": "CCFI页",
+    "url": "https://www.sse.net.cn/index/singleIndex?indexName=CCFI",
+    "ok": false,
+    "status": 500,
+    "title": "系统错误",
+    "final": "https://www.sse.net.cn/index/singleIndex?indexName=CCFI"
+  },
+  {
+    "name": "mofcom",
+    "category": "中国贸易",
+    "variant": "商务部",
+    "url": "http://www.mofcom.gov.cn/",
+    "ok": true,
+    "status": 200,
+    "title": "ä¸­åäººæ°å±åå½åå¡é¨",
+    "final": "http://www.mofcom.gov.cn/"
+  },
+  {
+    "name": "mofcom",
+    "category": "中国贸易",
+    "variant": "商务部-https",
+    "url": "https://www.mofcom.gov.cn/",
+    "ok": true,
+    "status": 200,
+    "title": "ä¸­åäººæ°å±åå½åå¡é¨",
+    "final": "https://www.mofcom.gov.cn/"
+  },
+  {
+    "name": "stats-gov",
+    "category": "中国贸易",
+    "variant": "统计局",
+    "url": "https://www.stats.gov.cn/",
+    "ok": true,
+    "status": 200,
+    "title": "å½å®¶ç»è®¡å±",
+    "final": "https://www.stats.gov.cn/"
+  },
+  {
+    "name": "drewry",
+    "category": "运价指数",
+    "variant": "Drewry",
+    "url": "https://www.drewry.co.uk/",
+    "ok": true,
+    "status": 200,
+    "title": "Drewry - Maritime Research, Consulting and Financial Advisory Services",
+    "final": "https://www.drewry.co.uk/"
+  },
+  {
+    "name": "balticexchange",
+    "category": "运价指数",
+    "variant": "波罗的海交易所",
+    "url": "https://www.balticexchange.com/",
+    "ok": true,
+    "status": 200,
+    "title": "Challenge Validation",
+    "final": "https://www.balticexchange.com/"
+  },
+  {
+    "name": "chinaports",
+    "category": "港口-中国",
+    "variant": "中国港口协会",
+    "url": "https://www.china-ports.org.cn/",
+    "ok": false,
+    "status": null,
+    "title": null,
+    "error": "ConnectionError: HTTPSConnectionPool(host='www.china-ports.org.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x104a87b00>: Failed to resolve 'www.china-ports.org.cn' ([Errno 8] nodename nor servname provided, or not known)\"))"
+  },
+  {
+    "name": "chinaports",
+    "category": "港口-中国",
+    "variant": "中国港口网",
+    "url": "https://www.chinaports.com/",
+    "ok": true,
+    "status": 200,
+    "title": null,
+    "final": "https://www.chinaports.com/"
+  },
+  {
+    "name": "cosco",
+    "category": "航线-船公司",
+    "variant": "中远海运",
+    "url": "https://lines.coscoshipping.com/",
+    "ok": true,
+    "status": 200,
+    "title": "COSCO SHIPPING Lines",
+    "final": "https://lines.coscoshipping.com/"
+  },
+  {
+    "name": "nbse-index",
+    "category": "运价指数",
+    "variant": "宁波航运指数",
+    "url": "https://www.nbse.net.cn/",
+    "ok": true,
+    "status": 200,
+    "title": "Äþ²¨º½ÔË½»Ò×Ëù¹Ù·½ÍøÕ¾",
+    "final": "https://www.nbse.net.cn/"
+  }
+]
