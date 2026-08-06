@@ -1,0 +1,60 @@
+[
+  {
+    "name": "stats-hgyd-ref",
+    "category": "中国贸易",
+    "url": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=[]&dfwds=[{\"wdcode\":\"zb\",\"valuecode\":\"A0801\"}]",
+    "ok": false,
+    "status": 403,
+    "final": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=%5B%5D&dfwds=%5B%7B%22wdcode%22:%22zb%22,%22valuecode%22:%22A0801%22%7D%5D",
+    "note": "JSON解析失败: Expecting value: line 1 column 1 (char 0)",
+    "raw": "<!DOCTYPE html>\n<html>\n<head><title>403 Forbidden</title></head>\n<body bgcolor=\"white\">\n<center style=\"margin-top: 100px;\"><h1>403 Forbidden</h1></center>\n<hr>\n<center>Client IP: 2409:8929:2579:c398:6"
+  },
+  {
+    "name": "mofcom-data",
+    "category": "中国贸易",
+    "url": "http://data.mofcom.gov.cn/",
+    "ok": false,
+    "status": null,
+    "error": "SSLError: HTTPSConnectionPool(host='data.mofcom.gov.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))"
+  },
+  {
+    "name": "sse-home2",
+    "category": "运价指数",
+    "url": "https://www.sse.net.cn/",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.sse.net.cn/home",
+    "title": "主菜单 | 上海航运交易研究所(筹)",
+    "text_sample": "主菜单 | 上海航运交易研究所(筹) English 数据中心 关于我们 简介 组织机构 联系我们 登录 公告 友情链接： 上海航运交易所 请留下您的建议，我们会认真聆听并及时给予回复。 建议 联系方式 提交反馈 市场分析 航运指数 市场报告 运输备案 运价备案 运力备案 提单查询 航运媒体 航运交易公报 中华航运网 航运衍生品 × 快速通道 航运指数 运价备案 综合交通 航运指数 指数名称 上期 本期 涨跌 中国出口集装箱运价指数综合指数 上海出口集装箱运价指数综合指数 上海出口集装箱结算运价指数-欧洲航线 上海出口集装箱结算运价指数-美西航线 中国进口集装箱运价指数综合指数 台湾海峡两岸集装箱运价指数综合指数 东南亚集装箱运价指数综合指数 专题专栏 业务咨询 航运市场 信息部 国际航运中心 研究所 交通规划 研究所 交通发展战略 研究所 科技委 事务部 公告栏 关于启用上海航运交易研究",
+    "index_hits": []
+  },
+  {
+    "name": "worldbank-retry",
+    "category": "港口-吞吐量",
+    "url": "https://api.worldbank.org/v2/country/CN/indicator/IS.SHP.GOOD.TU?format=json&per_page=5",
+    "ok": false,
+    "status": 502,
+    "final": "https://api.worldbank.org/v2/country/CN/indicator/IS.SHP.GOOD.TU?format=json&per_page=5",
+    "note": "JSON解析失败: Expecting value: line 1 column 1 (char 0)",
+    "raw": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <link rel=\"shortcut icon\" href=\"https://www.worldbank.org/content/dam/wbr-redesign/logos/wbg-fav"
+  },
+  {
+    "name": "mot-home",
+    "category": "港口-中国",
+    "url": "https://www.mot.gov.cn/",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.mot.gov.cn/",
+    "title": "ä¸­åäººæ°å±åå½äº¤éè¿è¾é¨",
+    "text_sample": "ä¸­åäººæ°å ±åå½äº¤éè¿è¾é¨ ä¸æ¹ä¹çº¦ï¼ç¸çº¦æªæ¥ââä¸­å½å é¦å¤äº¤çä¸çæ æä¸å¤§å½æ°æ´¾ æ°æ¶ä»£ä»¥æ¥ï¼ä¸­å½ä¸¾åä¸ç³»åä¸»åºå¤äº¤æ´»å¨ï¼ä¸»é¢é²æãææä¸°ç¡ãäº®ç¹çº·åï¼æé åºä¸­å½ç¹è²å¤§å½å¤äº¤æ°åçï¼ æä¸ºæ¨å¨æå»ºäººç±»å½è¿å ±åä½ççå¨å®è·µ ä¹ è¿å¹³ï¼å å¿«å»ºè®¾å¥åº·ä¸­å½ ç¯é±é³æ¹å ¤é¡¶å ¬è·¯åºæ¥ä¿éå·"
+  },
+  {
+    "name": "cosco-group",
+    "category": "航线-船公司",
+    "url": "https://www.coscoshipping.com/",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.coscoshipping.com/",
+    "text_sample": "Please enable JavaScript to view the page content. Your support ID is: 6736074474987902986."
+  }
+]
