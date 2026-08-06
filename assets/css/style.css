@@ -1,0 +1,130 @@
+:root {
+  --nav-bg: #0f2a4a;
+  --nav-hover: #1d4a7a;
+  --accent: #c9a227;
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --text: #22303f;
+  --muted: #6b7a8c;
+  --border: #e2e8f0;
+  --ok: #1f9d55;
+  --warn: #b7791f;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* 顶部导航 */
+header.nav {
+  background: var(--nav-bg);
+  color: #fff;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+header.nav .brand {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 16px 14px 0;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+header.nav .brand .sub { font-size: 11px; font-weight: 400; color: #9fb6cf; display: block; }
+header.nav a.page {
+  color: #d7e3f0;
+  text-decoration: none;
+  padding: 16px 14px;
+  font-size: 14px;
+  border-bottom: 3px solid transparent;
+}
+header.nav a.page:hover { background: var(--nav-hover); color: #fff; }
+header.nav a.page.active { color: #fff; border-bottom-color: var(--accent); }
+
+main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 60px; }
+
+h1.page-title { font-size: 24px; margin-bottom: 4px; }
+p.page-desc { color: var(--muted); margin-bottom: 20px; font-size: 14px; }
+.data-time { font-size: 12px; color: var(--muted); margin-bottom: 20px; }
+.data-time b { color: var(--warn); }
+
+/* 卡片 */
+.grid { display: grid; gap: 16px; }
+.grid.cols-2 { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid.cols-3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.grid.cols-4 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 1px 3px rgba(15, 42, 74, .06);
+}
+.card h3 { font-size: 15px; color: var(--nav-bg); margin-bottom: 10px; }
+.card .big { font-size: 30px; font-weight: 700; color: var(--nav-bg); }
+.card .unit { font-size: 13px; color: var(--muted); }
+.card .delta { font-size: 13px; font-weight: 600; }
+.delta.up { color: #c53030; }
+.delta.down { color: var(--ok); }
+.delta.flat { color: var(--muted); }
+.card .meta { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* 表格 */
+table.data { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.data th, table.data td {
+  text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border);
+}
+table.data th { background: #eef2f7; color: var(--nav-bg); font-weight: 600; white-space: nowrap; }
+table.data tr:hover td { background: #f8fafc; }
+
+/* 标签 */
+.tag {
+  display: inline-block; padding: 2px 10px; border-radius: 12px;
+  font-size: 12px; background: #e8eef6; color: var(--nav-bg); margin: 2px 4px 2px 0;
+}
+.tag.cny { background: #fdf2e3; color: #92600a; }
+
+/* 链接 */
+a { color: #1d4a7a; }
+a.ext { text-decoration: none; border-bottom: 1px dashed #9fb6cf; }
+a.ext:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* 搜索框 */
+.search-row { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+.search-row input[type=text] {
+  flex: 1; min-width: 220px; padding: 9px 12px; border: 1px solid var(--border);
+  border-radius: 8px; font-size: 14px;
+}
+.search-row button {
+  padding: 9px 18px; border: none; border-radius: 8px;
+  background: var(--nav-bg); color: #fff; cursor: pointer; font-size: 14px;
+}
+.search-row button:hover { background: var(--nav-hover); }
+
+/* 地图 */
+#map { height: 480px; border-radius: 10px; border: 1px solid var(--border); }
+#map-full { height: 620px; border-radius: 10px; border: 1px solid var(--border); }
+
+/* 空状态 */
+.empty {
+  text-align: center; color: var(--muted); padding: 40px 0; font-size: 14px;
+}
+.empty .hint { margin-top: 8px; font-size: 12px; }
+
+/* 图表 */
+.chart { width: 100%; height: 340px; }
+
+footer {
+  text-align: center; color: var(--muted); font-size: 12px;
+  padding: 20px; border-top: 1px solid var(--border);
+}
+footer a { color: var(--muted); }
