@@ -58,15 +58,21 @@ python3 scripts/update_all.py --offline
 python3 scripts/check_site.py
 ```
 
-## 部署（GitHub Pages）
+## 一键打开
+
+- **macOS**：双击 `打开网站.command` —— 线上可访问则直接打开 GitHub Pages，否则自动启动本地服务器并打开浏览器
+- 或手动本地预览：`cd site && python3 -m http.server 8000` 后访问 http://localhost:8000
+
+## 线上部署
+
+已部署到 GitHub Pages：**https://henrychen-nb.github.io/shipping-data-portal/**
 
 ```bash
-# 推送到 gh-pages 分支（需先建好空仓库）
-./scripts/deploy.sh git@github.com:USER/REPO.git "站点更新"
-# 或 https://github.com/USER/REPO.git
+# 网络可直连 github.com 时，推送到 gh-pages 分支（传统方式）
+./scripts/deploy.sh git@github.com:HenryChen-nb/shipping-data-portal.git "站点更新"
+# 网络只能访问 api.github.com 时，用 REST API 上传到 main 分支（当前环境采用）
+python3 scripts/deploy_api.py HenryChen-nb/shipping-data-portal <token>
 ```
-
-也可直接把 `site/` 内容放到任意静态托管（Vercel/Netlify/自有服务器）。
 
 ## 数据来源
 
