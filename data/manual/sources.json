@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-08-01",
+  "note": "权威数据源与信息链接库（人工维护）。分类：港口/AIS、航线/船公司、运价指数、行业报告、中国贸易、新闻资讯。",
+  "categories": [
+    {
+      "category": "港口 / 船舶动态(AIS)",
+      "items": [
+        {"name": "船讯网", "url": "https://www.shipxy.com/", "desc": "全球船舶实时动态、AIS 定位、历史轨迹（中文）"},
+        {"name": "MarineTraffic", "url": "https://www.marinetraffic.com/", "desc": "全球最大 AIS 船舶追踪平台（英文）"},
+        {"name": "VesselFinder", "url": "https://www.vesselfinder.com/", "desc": "AIS 船舶追踪与港口动态"},
+        {"name": "HiFleet", "url": "https://www.hifleet.com/", "desc": "船位查询与航次管理（中文）"},
+        {"name": "UN/LOCODE", "url": "https://service.unece.org/trade/locode/", "desc": "联合国港口/口岸代码（开放数据，本站港口库来源）"}
+      ]
+    },
+    {
+      "category": "航线 / 船公司",
+      "items": [
+        {"name": "中远海运集运", "url": "https://lines.coscoshipping.com/", "desc": "中国最大船公司，全球航线表"},
+        {"name": "马士基 Maersk", "url": "https://www.maersk.com/", "desc": "全球最大班轮公司，航线与船期"},
+        {"name": "地中海航运 MSC", "url": "https://www.msc.com/", "desc": "全球第二大班轮公司"},
+        {"name": "达飞 CMA CGM", "url": "https://www.cma-cgm.com/", "desc": "法国班轮公司，全球第三"},
+        {"name": "赫伯罗特 Hapag-Lloyd", "url": "https://www.hapag-lloyd.com/", "desc": "德国班轮公司"},
+        {"name": "ONE (海洋网联)", "url": "https://www.one-line.com/", "desc": "日本三家船公司合资班轮公司"},
+        {"name": "eeSea", "url": "https://www.eesea.com/", "desc": "船期与港口挂靠数据库（Xeneta 旗下）"}
+      ]
+    },
+    {
+      "category": "运价 / 航运指数",
+      "items": [
+        {"name": "上海航运交易所", "url": "https://www.sse.net.cn/", "desc": "SCFI/CCFI 等 20+ 航运指数官方发布机构"},
+        {"name": "宁波航运交易所", "url": "https://www.nbse.net.cn/", "desc": "NCFI 宁波出口集装箱运价指数"},
+        {"name": "Drewry WCI", "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry", "desc": "全球集装箱运价指数（本站自动抓取）"},
+        {"name": "Freightos FBX", "url": "https://fbx.freightos.com/", "desc": "波罗的海货运指数 FBX"},
+        {"name": "波罗的海交易所", "url": "https://www.balticexchange.com/", "desc": "干散货 BDI 等航运指数"},
+        {"name": "克拉克森 Clarksons", "url": "https://www.clarksons.com/", "desc": "全球航运研究与经纪服务"}
+      ]
+    },
+    {
+      "category": "港口吞吐量 / 行业报告",
+      "items": [
+        {"name": "World Shipping Council", "url": "https://www.worldshipping.org/", "desc": "全球港口吞吐量年度排名报告"},
+        {"name": "UNCTAD", "url": "https://unctad.org/", "desc": "联合国贸发会议，海运与贸易统计"},
+        {"name": "Sea-Intelligence", "url": "https://www.sea-intelligence.com/", "desc": "班轮准班率月度报告"},
+        {"name": "Linerlytica", "url": "https://linerlytica.com/", "desc": "集装箱市场周报与港口拥堵分析"},
+        {"name": "中国港口网", "url": "https://www.chinaports.com/", "desc": "中国港口资讯与吞吐量数据"},
+        {"name": "交通运输部", "url": "https://www.mot.gov.cn/", "desc": "中国港口吞吐量等交通统计"}
+      ]
+    },
+    {
+      "category": "中国进出口贸易",
+      "items": [
+        {"name": "海关总署", "url": "http://www.customs.gov.cn/customs/302249/zfxxgk/2799825/302274/302277/index.html", "desc": "中国进出口贸易统计发布栏目"},
+        {"name": "商务部", "url": "https://www.mofcom.gov.cn/", "desc": "外贸政策与贸易统计数据"},
+        {"name": "国家统计局", "url": "https://www.stats.gov.cn/", "desc": "国民经济与贸易统计"},
+        {"name": "国务院新闻办", "url": "http://www.scio.gov.cn/", "desc": "贸易月度发布会实录"}
+      ]
+    },
+    {
+      "category": "新闻资讯",
+      "items": [
+        {"name": "Lloyd's List", "url": "https://lloydslist.maritimeintelligence.informa.com/", "desc": "全球海事新闻权威（英文）"},
+        {"name": "航运界", "url": "http://www.ship.sh/", "desc": "中国航运业综合资讯"},
+        {"name": "信德海事", "url": "https://www.xindemarinenews.com/", "desc": "航运新闻与市场分析"}
+      ]
+    }
+  ]
+}
