@@ -1,0 +1,115 @@
+[
+  {
+    "name": "un-locode-gh",
+    "category": "港口-基础",
+    "url": "https://raw.githubusercontent.com/datasets/un-locode/main/README.md",
+    "ok": true,
+    "status": 200,
+    "final": "https://raw.githubusercontent.com/datasets/un-locode/main/README.md",
+    "note": "",
+    "text_sample": "The United Nations Code for Trade and Transport Locations is a code list maintained by UNECE, United Nations agency, to facilitate trade. ## Data Data comes from the [UNECE UN/LOCODE Download page](https://unece.org/trade/cefact/UNLOCODE-Download), released at least once a year. ## Updating the data"
+  },
+  {
+    "name": "un-locode-gh-csv",
+    "category": "港口-基础",
+    "url": "https://raw.githubusercontent.com/datasets/un-locode/main/data/code-list.csv",
+    "ok": true,
+    "status": 200,
+    "final": "https://raw.githubusercontent.com/datasets/un-locode/main/data/code-list.csv",
+    "note": "",
+    "text_sample": "Change,Country,Location,Name,NameWoDiacritics,Subdivision,Status,Function,Date,IATA,Coordinates,Remarks ,AD,ALV,Andorra la Vella,Andorra la Vella,,AI,--34-6--,0601,,4230N 00131E, ,AD,CAN,Canillo,Canillo,,RL,--3-----,0307,,4234N 00135E, ,AD,EAC,Escàs,Escas,04,RL,--3-----,1407,,4233N 00131E, ,AD,ENC,E"
+  },
+  {
+    "name": "stats-hgyd",
+    "category": "中国贸易",
+    "url": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=[]&dfwds=[{\"wdcode\":\"zb\",\"valuecode\":\"A0801\"}]",
+    "ok": false,
+    "status": 403,
+    "final": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=%5B%5D&dfwds=%5B%7B%22wdcode%22:%22zb%22,%22valuecode%22:%22A0801%22%7D%5D",
+    "note": "JSON解析失败: Expecting value: line 1 column 1 (char 0)",
+    "json_sample": "<!DOCTYPE html>\n<html>\n<head><title>403 Forbidden</title></head>\n<body bgcolor=\"white\">\n<center style=\"margin-top: 100px;\"><h1>403 Forbidden</h1></center>\n<hr>\n<center>Client IP: 2409:8929:2579:c398:6"
+  },
+  {
+    "name": "stats-hgyd-exp",
+    "category": "中国贸易",
+    "url": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=[]&dfwds=[{\"wdcode\":\"zb\",\"valuecode\":\"A0802\"}]",
+    "ok": false,
+    "status": 403,
+    "final": "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgyd&rowcode=zb&colcode=sj&wds=%5B%5D&dfwds=%5B%7B%22wdcode%22:%22zb%22,%22valuecode%22:%22A0802%22%7D%5D",
+    "note": "JSON解析失败: Expecting value: line 1 column 1 (char 0)",
+    "json_sample": "<!DOCTYPE html>\n<html>\n<head><title>403 Forbidden</title></head>\n<body bgcolor=\"white\">\n<center style=\"margin-top: 100px;\"><h1>403 Forbidden</h1></center>\n<hr>\n<center>Client IP: 2409:8929:2579:c398:6"
+  },
+  {
+    "name": "sse-home",
+    "category": "运价指数",
+    "url": "https://www.sse.net.cn/",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.sse.net.cn/home",
+    "note": "",
+    "title": "主菜单 | 上海航运交易研究所(筹)",
+    "text_sample": "主菜单 | 上海航运交易研究所(筹) English 数据中心 关于我们 简介 组织机构 联系我们 登录 公告 友情链接： 上海航运交易所 请留下您的建议，我们会认真聆听并及时给予回复。 建议 联系方式 提交反馈 市场分析 航运指数 市场报告 运输备案 运价备案 运力备案 提单查询 航运媒体 航运交易公报 中华航运网 航运衍生品 × 快速通道 航运指数 运价备案 综合交通 航运指数 指数名称 上期 本期 涨跌 中国出口集装箱运价指数综合指数 上海出口集装箱运价指数综合指数 上海出口集装箱结算运价指数-欧洲航线 上海出口集装箱结算运价指数-美西航线 中国进口集装箱运价指数综合指数 台湾海峡两岸集"
+  },
+  {
+    "name": "nbse-ncfi-page",
+    "category": "运价指数",
+    "url": "https://www.nbse.net.cn/web/nbse/front/index/index.jsp",
+    "ok": false,
+    "status": 404,
+    "final": "https://www.nbse.net.cn/web/nbse/front/index/index.jsp",
+    "note": "",
+    "title": "404 Not Found",
+    "text_sample": "404 Not Found 404 Not Found nginx"
+  },
+  {
+    "name": "nbse-home",
+    "category": "运价指数",
+    "url": "https://www.nbse.net.cn/",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.nbse.net.cn/",
+    "note": "",
+    "title": "Äþ²¨º½ÔË½»Ò×Ëù¹Ù·½ÍøÕ¾",
+    "text_sample": "Äþ²¨º½ÔË½»Ò×Ëù¹Ù·½ÍøÕ¾"
+  },
+  {
+    "name": "mot-stats",
+    "category": "港口-中国",
+    "url": "https://www.mot.gov.cn/tongjishuju/",
+    "ok": false,
+    "status": 404,
+    "final": "https://www.mot.gov.cn/tongjishuju/",
+    "note": "",
+    "text_sample": "Sorry, Page Not Found\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "name": "mofcom-stats",
+    "category": "中国贸易",
+    "url": "http://www.mofcom.gov.cn/article/tongjiziliao/",
+    "ok": false,
+    "status": 404,
+    "final": "http://www.mofcom.gov.cn/article/tongjiziliao/",
+    "note": "",
+    "title": "404 Not Found",
+    "text_sample": "404 Not Found 404 Not Found openresty"
+  },
+  {
+    "name": "worldbank-api",
+    "category": "港口-吞吐量",
+    "url": "https://api.worldbank.org/v2/country/CN/indicator/IS.SHP.GOOD.TU?format=json",
+    "ok": false,
+    "status": null,
+    "error": "ReadTimeout: HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"
+  },
+  {
+    "name": "drewry-wci",
+    "category": "运价指数",
+    "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+    "ok": true,
+    "status": 200,
+    "final": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+    "note": "",
+    "title": "Drewry - Service Expertise - World Container Index - 30 Jul",
+    "text_sample": "Drewry - Service Expertise - World Container Index - 30 Jul ao link Home / Expertise / Supply Chain Advisors Register Login Sectors Advisory Research About us News & Events Careers Resources World Container Index (Weekly) Market Opinions and Commentary Intra-Asia Container Index (Weekly) Market Trac"
+  }
+]
