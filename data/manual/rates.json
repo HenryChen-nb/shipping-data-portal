@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-08-01",
+  "note": "人工维护：SCFI/CCFI 每周五发布（上海航运交易所），NCFI 每周发布（宁波航运交易所）。请每周更新最新一期数值；官网需登录，故以人工录入方式维护。数值字段留空或填占位值表示待更新。",
+  "indices": [
+    {
+      "code": "SCFI",
+      "name_cn": "上海出口集装箱运价指数",
+      "name_en": "Shanghai Containerized Freight Index",
+      "unit": "点",
+      "latest": null,
+      "prev": null,
+      "change_pct": null,
+      "period": "周度",
+      "released_on": null,
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=scfi",
+      "description": "反映上海出口集装箱即期运价水平，综合指数"
+    },
+    {
+      "code": "CCFI",
+      "name_cn": "中国出口集装箱运价指数",
+      "name_en": "China Containerized Freight Index",
+      "unit": "点",
+      "latest": null,
+      "prev": null,
+      "change_pct": null,
+      "period": "周度",
+      "released_on": null,
+      "source_url": "https://www.sse.net.cn/index/singleIndex?indexType=ccfi",
+      "description": "反映中国出口集装箱市场综合运价水平"
+    },
+    {
+      "code": "NCFI",
+      "name_cn": "宁波出口集装箱运价指数",
+      "name_en": "Ningbo Containerized Freight Index",
+      "unit": "点",
+      "latest": null,
+      "prev": null,
+      "change_pct": null,
+      "period": "周度",
+      "released_on": null,
+      "source_url": "https://www.nbse.net.cn/",
+      "description": "宁波舟山港出口集装箱即期运价指数"
+    }
+  ]
+}
